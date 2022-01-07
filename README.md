@@ -10,7 +10,9 @@
 10x10の簡単なマップを用意し，Q学習を用いて最適な方策の獲得を目指す．
 
 ### Q学習
-ロボットが行動した後に得られる情報を用いて，行動価値関数を更新していくアルゴリズムである．
-'''math
-https://user-images.githubusercontent.com/68257043/148495932-0ea9d5ff-d326-4252-aec8-8c1600757ff8.png![image](https://user-images.githubusercontent.com/50820768/148539942-44b97930-70b9-4e2c-90e2-9574ee4c4fbb.png)
+ロボットが行動した後に得られる情報を用いて，行動価値関数を更新していくアルゴリズムである．  
+更新は以下の式で行う．
+![image](https://user-images.githubusercontent.com/50820768/148540239-e87c6a4e-9e24-4a28-941e-d6b6cbcbfd89.png)
+
+
 
